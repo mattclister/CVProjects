@@ -1,6 +1,8 @@
+''' NOTES. The aim for this project was to create a small interactive task manager, with a basic menu. 
+It also uses a simple login system and stores and loads data from seperate files. Login details in users.txt'''
+
 # LIBRARIES IMPORTED. Datetime imported to retrieve current date.
 import datetime
-
 
 # USER LOGIN. details requested. Variables are defined that record if a user's password has been matched and if the user should be considered as "logged in"
 user_logged_in = False
